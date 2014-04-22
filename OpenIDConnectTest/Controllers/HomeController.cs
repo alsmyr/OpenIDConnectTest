@@ -8,19 +8,23 @@ namespace OpenIDConnectTest.Controllers
 {
     public class HomeController : Controller
     {
-        [AllowAnonymous]
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Protected()
+        public ActionResult About()
         {
-            ViewBag.Message = "This is a Protected Page!";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
