@@ -49,7 +49,9 @@ namespace OpenIDConnectTest
             //   appId: "",
             //   appSecret: "");
 
-           
+            app.UseGoogleAuthentication(
+         clientId: "SECRET.apps.googleusercontent.com",
+         clientSecret: "TOPSECRET");
         }
     }
 }
