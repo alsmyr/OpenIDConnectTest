@@ -49,7 +49,7 @@ namespace OpenIDConnectTest
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication();
+           
         }
     }
 }
