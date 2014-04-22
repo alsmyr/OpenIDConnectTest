@@ -45,13 +45,13 @@ namespace OpenIDConnectTest
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "SECRET",
+               appSecret: "SECRET");
 
             app.UseGoogleAuthentication(
-         clientId: "SECRET.apps.googleusercontent.com",
-         clientSecret: "TOPSECRET");
+         clientId: "SECRET",
+         clientSecret: "SECRET");
         }
     }
 }
